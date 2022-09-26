@@ -14,6 +14,9 @@ Use this file to record your reflection on this assignment.
 <u> 9/21 20:12 </u>
 I met up with Lesly and Glory today at the Nielson Library to brainstorm ideas. But we were all pretty tired. So far, we have been able to do the most basic requirement of the task which is taking in the number of rounds and looping input and responses for that number of times. I plan to design some string comprehension methods to make the conversations more complex.
 
+<u> 9/26 16:03 </u>
+It took me a while to understand how I was meant to implement canned responses but I have settled on using it as a pool for the chatbot to randomly collect responses from. This lead me to explore how the Random class works in Java as I realized it does not work the same way as it does in Python. I have been able to code for the robot to randomly select a response and will be moving on to break down user questions or staements into array from their string version.
+
 
 References:
 https://www.educative.io/answers/how-to-generate-random-numbers-in-java
