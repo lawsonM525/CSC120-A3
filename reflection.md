@@ -13,3 +13,7 @@ Use this file to record your reflection on this assignment.
 
 <u> 9/21 20:12 </u>
 I met up with Lesly and Glory today at the Nielson Library to brainstorm ideas. But we were all pretty tired. So far, we have been able to do the most basic requirement of the task which is taking in the number of rounds and looping input and responses for that number of times. I plan to design some string comprehension methods to make the conversations more complex.
+
+
+References:
+https://www.educative.io/answers/how-to-generate-random-numbers-in-java
