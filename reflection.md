@@ -20,3 +20,4 @@ It took me a while to understand how I was meant to implement canned responses b
 
 References:
 https://www.educative.io/answers/how-to-generate-random-numbers-in-java
+https://www.geeksforgeeks.org/check-if-a-value-is-present-in-an-array-in-java/

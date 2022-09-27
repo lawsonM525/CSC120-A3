@@ -18,7 +18,7 @@ YES 1 pt: Program queries user for number of conversation rounds
 
 YES 1 pt: Program carries out requested number of conversation rounds
 
-_____ 1 pt: Allocates static array of canned responses
+YES 1 pt: Allocates static array of canned responses
 
 ### Level 2 (3 pts)
 
@@ -32,9 +32,9 @@ _____ 1 pt: Replaces simple mirror words appropriately (unpunctuated, lowercase)
 
 _____ 1 pt: Makes all appropriate mirror replacements
 
-_____ 1 pt: Stores transcript of the conversation in an array
+YES 1 pt: Stores transcript of the conversation in an array
 
-_____ 1 pt: Prints transcript when terminating
+YES 1 pt: Prints transcript when terminating
 
 ## Kudos:
 
