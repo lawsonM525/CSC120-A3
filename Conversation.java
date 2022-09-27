@@ -69,6 +69,7 @@ class Conversation {
         if (check(mirrorWordsIn, words[j])){
           words[j] =mirrorWordsOut[findIndex(mirrorWordsIn, words[j])];
           wordIsMirrored = true;
+          System.out.println("true");
         }   
       }
       if (wordIsMirrored) {
