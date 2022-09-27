@@ -44,18 +44,15 @@ class Conversation {
         if (check(mirrorWordsIn, words[j])){
           words[j] =mirrorWordsOut[ArrayUtils.indexOf(mirrorWordsIn, words[j])];
           wordIsMirrored = true;
-        
-        }
-      
-          
+        }   
       }
       if (wordIsMirrored) {
         String response = "";
         for (int k=0; k<words.length; k++){
           response += words[k];
         }
-        System.out.println(response);
-        transcript.add("Bot:"+response);
+        System.out.println(response+"?");
+        transcript.add("Bot:"+response+"?");
       }
       else {
         Random rand = new Random();
