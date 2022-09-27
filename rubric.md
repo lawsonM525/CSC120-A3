@@ -40,7 +40,7 @@ YES 1 pt: Prints transcript when terminating
 
 YES (Kudos!) Handles mirror words with punctuation
 
-_____ (Kudos!) Generates output with correct punctuation & capitalization
+NO (Kudos!) Generates output with correct punctuation & capitalization
 
 NO (Kudos!) Handles you --> me/I dilemma
 
@@ -48,22 +48,22 @@ NO (Kudos!) Handles you --> me/I dilemma
 
 ## General Items:
 
-_____ 4 pts: Programs compile without errors or warnings
+YES 4 pts: Programs compile without errors or warnings
 
-_____ 2 pts: Executes fully & consistently without crashing (exception/freeze)
+NO 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
-_____ 2 pt: Complies with style guidelines (missing items 1 pt each):
+YES 2 pt: Complies with style guidelines (missing items 1 pt each):
 
-      _____ Classes & class members all have Javadoc header comments
+      YES Classes & class members all have Javadoc header comments
 
-      _____ Clear and consistent indentation of bracketed sections
+      YES Clear and consistent indentation of bracketed sections
 
-      _____ Adheres to Java conventions on naming & capitalization
+      YES Adheres to Java conventions on naming & capitalization
 
-      _____ Methods & variables all have clear and accurate names
+      YES Methods & variables all have clear and accurate names
 
-      _____ Methods avoid confusing side effects
+      YES Methods avoid confusing side effects
 
-_____ 1 pt: All required files included with submission (including completed checklist file)
+YES 1 pt: All required files included with submission (including completed checklist file)
 
-_____ 1 pt: `reflection.md` contains your reflection on the assignment
+YES 1 pt: `reflection.md` contains your reflection on the assignment
