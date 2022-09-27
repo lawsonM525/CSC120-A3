@@ -21,7 +21,7 @@ class Conversation {
         }
         return -1;
     }
-  private static boolean check(String[] arr, String toCheckValue)
+  public static boolean check(String[] arr, String toCheckValue)
     {
         boolean test = false;
         for (String element : arr) {
@@ -51,14 +51,20 @@ class Conversation {
     
 
     for (int i = 0; i < rounds; i++) {
+      
       String userDialog = input.nextLine(); //user inputs their entry
-      Boolean wordIsMirrored = false; //boolean to check if any word has been mirrored fromthe user dialog
       transcript.add("You:"+userDialog);
-      String[] words = userDialog.split(" ");
+      
+      Boolean wordIsMirrored = false; //boolean to check if any word has been mirrored fromthe user dialog
+      
+      String[] words = userDialog.split(" "); //splits user dialog string into array
+      
       for (int j =0; j<words.length; i++){
+        
         if (check(mirrorWordsIn, words[j])){
           words[j] =mirrorWordsOut[findIndex(mirrorWordsIn, words[j])];
           wordIsMirrored = true;
+          System.out.println("true");
         }   
       }
       if (wordIsMirrored) {
