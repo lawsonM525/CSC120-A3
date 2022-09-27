@@ -1,11 +1,26 @@
-import java.util.Scanner;
-import java.util.Random;
-import java.util.ArrayList;
-import org.apache.commons.lang.ArrayUtils;
+import java.util.*;
 import javax.lang.model.type.ArrayType;
 
 class Conversation {
 
+    public static int findIndex(String arr[], String t)
+    {
+      // function from https://www.geeksforgeeks.org/find-the-index-of-an-array-element-in-java/
+        if (arr == null) {
+            return -1;
+        }
+        int len = arr.length;
+        int i = 0;
+        while (i < len) {
+            if (arr[i] == t) {
+                return i;
+            }
+            else {
+                i = i + 1;
+            }
+        }
+        return -1;
+    }
   private static boolean check(String[] arr, String toCheckValue)
     {
         boolean test = false;
@@ -37,12 +52,12 @@ class Conversation {
 
     for (int i = 0; i < rounds; i++) {
       String userDialog = input.nextLine(); //user inputs their entry
-      Boolean wordIsMirrored = false;//boolean to check if any word has been mirrored fromthe user dialog
+      Boolean wordIsMirrored = false; //boolean to check if any word has been mirrored fromthe user dialog
       transcript.add("You:"+userDialog);
       String[] words = userDialog.split(" ");
       for (int j =0; j<words.length; i++){
         if (check(mirrorWordsIn, words[j])){
-          words[j] =mirrorWordsOut[ArrayUtils.indexOf(mirrorWordsIn, words[j])];
+          words[j] =mirrorWordsOut[findIndex(mirrorWordsIn, words[j])];
           wordIsMirrored = true;
         }   
       }
