@@ -38,9 +38,9 @@ YES 1 pt: Prints transcript when terminating
 
 ## Kudos:
 
-YES (Kudos!) Handles mirror words with punctuation
+NO (Kudos!) Handles mirror words with punctuation
 
-NO (Kudos!) Generates output with correct punctuation & capitalization
+YES (Kudos!) Generates output with correct punctuation & capitalization
 
 NO (Kudos!) Handles you --> me/I dilemma
 
@@ -50,7 +50,7 @@ NO (Kudos!) Handles you --> me/I dilemma
 
 YES 4 pts: Programs compile without errors or warnings
 
-NO 2 pts: Executes fully & consistently without crashing (exception/freeze)
+YES 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
 YES 2 pt: Complies with style guidelines (missing items 1 pt each):
 
